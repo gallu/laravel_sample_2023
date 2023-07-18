@@ -1,0 +1,15 @@
+composer.phar　 create-project　 laravel/laravel 　laravel_sample
+
+php artisan serve --host 0.0.0.0 --port 8080
+
+    validate
+C   Controller  処理の入り口　＋　(入力の受け取り）処理本体
+(M   Model       ORM(DBとのつなぎこみ）)
+V   View        テンプレート
+
+php artisan make:controller HomeController
+
+php artisan make:request TestPostRequest
+
+
+
